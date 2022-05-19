@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1519.2px;
+    height : 56px;
+
+}
+.headercontent{
+
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.googleicon{
+    margin: 16px;
+    cursor: pointer;
+}
+.headercontentright{
+    width: 100%;
+    display: flex;
+    justify-content:end;
+}
+.icons{
+    cursor: pointer;
+    margin: 16px;
+   
+    opacity: .6;
+}
+.accounticon{
+    cursor: pointer;
+    margin: 16px;
+    border-radius: 13px;
+}
+.icons:hover{
+    fill: blue;   
+    color: blue;  
+    
+}
+.maincontent{
+    display: flex;
+    width: 1519.2px;
+    height: 236px;
+    
+}
+.subcontentmain{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+    height: 236px;
+   
+}
+.subcontent{
+   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    
+    width: 920px;
+    height: 136px;
+    
+}
+.welcometext{
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -2px;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-weight: 700;
+    color: #3c4043;
+}
+.googletext{
+    color: #188038;
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: -2px;
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-weight: 700;
+}
+.midsection{
+    width: 1471.2px;
+    display: flex;
+    justify-content: space-between;
+    
+    height: 2075.19px;
+    
+    padding: 60px 24px 24px 24px;
+}
+.sidesection{
+    width: 342px;
+    height: 100%;
+}
+.details{
+    margin-right: 20px;
+    position: relative;
+
+}
+.details input{
+    border-radius: 2px;
+    border: 1px solid rgba(95,99,104,.3);
+    height: 15px;
+    margin-right: 20px;
+    transition: all 200ms ease;
+    width: 15px;
+    background-color: #fff;
+}
+.type{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .75;
+}
+.line1{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    display: flex;
+    padding-left: 10px;
+}
+.line2{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    display: flex;
+    padding-left: 10px;
+}
+.list{
+    font-size: 14px;
+    line-height: 24px;
+}
+.contentsection{
+    width: 1105.2px;
+    height: 100%;
+}
+.row1{
+    display: flex;  
+    width: 1105.2px;
+    height: 427.15px;
+}
+.rowbox{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(246, 246, 246);
+    opacity: 100%;
+    margin: 0 24px 24px 24px;
+    width: 352.4px;
+    height: 427.15px;
+}
+.image{
+    width: 85%;
+    height: 85%;
+    padding-top: 40px;
+    object-fit: contain;
+}
+.namediv{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 1105.2px;
+    height: 20px;
+    justify-content: space-evenly;    
+}
+.boxname{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    margin-bottom: 0;
+    color: #3c4043;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.row2{
+    display: flex;  
+    width: 1105.2px;
+    height: 427.15px;
+}
+.row3{
+    display: flex;  
+    width: 1105.2px;
+    height: 427.15px;
+}
+.row4{
+    display: flex;  
+    width: 1105.2px;
+    height: 427.15px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 1519.2px;
+    height: 282px;
+
+
+}
+.footer1{   
+    display: flex;
+    justify-content: end;
+    width: 1440px;
+    height: 282px;
+    border-bottom: #3c4043 solid 1px;
+    
+
+}
+.footercontent{
+    margin-top: 80px;
+    padding-right: 55px;
+    width: 180px;
+    height: 114px;
+}
+.footercontent1{
+    margin-top: 80px;
+    padding-right: 75px;
+    width: 164px;
+    height: 114px;
+}
+.footertext{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: small;
+    min-height: 48px;
+}
+.finalfooter{
+    
+    display: flex;
+    margin: auto;
+    width: 1296px;
+    height: 52px;
+}
+.one{
+    align-items: center;
+    width: 648px;
+}
+.two p{
+    font-family: "Google Sans Display","Roboto","Arial",sans-serif;
+    font-size: small;
+    opacity: 0.8;
+    font-size: smaller
+}
+.two{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    width: 648px;
+}
+.footerimage{
+    margin: 12px;
+    opacity: .8;
+}
